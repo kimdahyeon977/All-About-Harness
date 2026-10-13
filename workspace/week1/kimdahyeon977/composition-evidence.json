@@ -1,0 +1,408 @@
+[
+  {
+    "task": "translation",
+    "mode": "standard",
+    "systemPromptCharacters": 6865,
+    "toolNames": [
+      "ask_user_question",
+      "bash",
+      "create_goal",
+      "edit",
+      "exit_plan_mode",
+      "get_goal",
+      "glob",
+      "grep",
+      "interrupt_agent",
+      "job_kill",
+      "job_list",
+      "job_output",
+      "list_agents",
+      "present",
+      "ralph",
+      "read",
+      "read_image",
+      "send_message",
+      "skill",
+      "subagent",
+      "subagent_fork",
+      "todo_write",
+      "update_goal",
+      "web_fetch",
+      "web_search",
+      "workflow",
+      "write"
+    ],
+    "timeline": [
+      {
+        "event": "turn/start",
+        "millisecondsSinceTurnStart": 0
+      },
+      {
+        "event": "step/start",
+        "millisecondsSinceTurnStart": 39
+      },
+      {
+        "event": "step/end",
+        "millisecondsSinceTurnStart": 2781
+      },
+      {
+        "event": "turn/end",
+        "millisecondsSinceTurnStart": 2782
+      }
+    ]
+  },
+  {
+    "task": "translation",
+    "mode": "minimal",
+    "systemPromptCharacters": 46,
+    "toolNames": [
+      "bash"
+    ],
+    "timeline": [
+      {
+        "event": "turn/start",
+        "millisecondsSinceTurnStart": 0
+      },
+      {
+        "event": "step/start",
+        "millisecondsSinceTurnStart": 25
+      },
+      {
+        "event": "step/end",
+        "millisecondsSinceTurnStart": 2116
+      },
+      {
+        "event": "turn/end",
+        "millisecondsSinceTurnStart": 2118
+      }
+    ]
+  },
+  {
+    "task": "json",
+    "mode": "standard",
+    "systemPromptCharacters": 6865,
+    "toolNames": [
+      "ask_user_question",
+      "bash",
+      "create_goal",
+      "edit",
+      "exit_plan_mode",
+      "get_goal",
+      "glob",
+      "grep",
+      "interrupt_agent",
+      "job_kill",
+      "job_list",
+      "job_output",
+      "list_agents",
+      "present",
+      "ralph",
+      "read",
+      "read_image",
+      "send_message",
+      "skill",
+      "subagent",
+      "subagent_fork",
+      "todo_write",
+      "update_goal",
+      "web_fetch",
+      "web_search",
+      "workflow",
+      "write"
+    ],
+    "timeline": [
+      {
+        "event": "turn/start",
+        "millisecondsSinceTurnStart": 0
+      },
+      {
+        "event": "step/start",
+        "millisecondsSinceTurnStart": 29
+      },
+      {
+        "event": "step/end",
+        "millisecondsSinceTurnStart": 2609
+      },
+      {
+        "event": "turn/end",
+        "millisecondsSinceTurnStart": 2611
+      }
+    ]
+  },
+  {
+    "task": "json",
+    "mode": "minimal",
+    "systemPromptCharacters": 46,
+    "toolNames": [
+      "bash"
+    ],
+    "timeline": [
+      {
+        "event": "turn/start",
+        "millisecondsSinceTurnStart": 0
+      },
+      {
+        "event": "step/start",
+        "millisecondsSinceTurnStart": 25
+      },
+      {
+        "event": "step/end",
+        "millisecondsSinceTurnStart": 1959
+      },
+      {
+        "event": "turn/end",
+        "millisecondsSinceTurnStart": 1959
+      }
+    ]
+  },
+  {
+    "task": "summary",
+    "mode": "standard",
+    "systemPromptCharacters": 6865,
+    "toolNames": [
+      "ask_user_question",
+      "bash",
+      "create_goal",
+      "edit",
+      "exit_plan_mode",
+      "get_goal",
+      "glob",
+      "grep",
+      "interrupt_agent",
+      "job_kill",
+      "job_list",
+      "job_output",
+      "list_agents",
+      "present",
+      "ralph",
+      "read",
+      "read_image",
+      "send_message",
+      "skill",
+      "subagent",
+      "subagent_fork",
+      "todo_write",
+      "update_goal",
+      "web_fetch",
+      "web_search",
+      "workflow",
+      "write"
+    ],
+    "timeline": [
+      {
+        "event": "turn/start",
+        "millisecondsSinceTurnStart": 0
+      },
+      {
+        "event": "step/start",
+        "millisecondsSinceTurnStart": 31
+      },
+      {
+        "event": "step/end",
+        "millisecondsSinceTurnStart": 2984
+      },
+      {
+        "event": "turn/end",
+        "millisecondsSinceTurnStart": 2986
+      }
+    ]
+  },
+  {
+    "task": "summary",
+    "mode": "minimal",
+    "systemPromptCharacters": 46,
+    "toolNames": [
+      "bash"
+    ],
+    "timeline": [
+      {
+        "event": "turn/start",
+        "millisecondsSinceTurnStart": 0
+      },
+      {
+        "event": "step/start",
+        "millisecondsSinceTurnStart": 20
+      },
+      {
+        "event": "step/end",
+        "millisecondsSinceTurnStart": 2594
+      },
+      {
+        "event": "turn/end",
+        "millisecondsSinceTurnStart": 2596
+      }
+    ]
+  },
+  {
+    "task": "python",
+    "mode": "standard",
+    "systemPromptCharacters": 6865,
+    "toolNames": [
+      "ask_user_question",
+      "bash",
+      "create_goal",
+      "edit",
+      "exit_plan_mode",
+      "get_goal",
+      "glob",
+      "grep",
+      "interrupt_agent",
+      "job_kill",
+      "job_list",
+      "job_output",
+      "list_agents",
+      "present",
+      "ralph",
+      "read",
+      "read_image",
+      "send_message",
+      "skill",
+      "subagent",
+      "subagent_fork",
+      "todo_write",
+      "update_goal",
+      "web_fetch",
+      "web_search",
+      "workflow",
+      "write"
+    ],
+    "timeline": [
+      {
+        "event": "turn/start",
+        "millisecondsSinceTurnStart": 0
+      },
+      {
+        "event": "step/start",
+        "millisecondsSinceTurnStart": 45
+      },
+      {
+        "event": "step/end",
+        "millisecondsSinceTurnStart": 3028
+      },
+      {
+        "event": "turn/end",
+        "millisecondsSinceTurnStart": 3029
+      }
+    ]
+  },
+  {
+    "task": "python",
+    "mode": "minimal",
+    "systemPromptCharacters": 46,
+    "toolNames": [
+      "bash"
+    ],
+    "timeline": [
+      {
+        "event": "turn/start",
+        "millisecondsSinceTurnStart": 0
+      },
+      {
+        "event": "step/start",
+        "millisecondsSinceTurnStart": 23
+      },
+      {
+        "event": "step/end",
+        "millisecondsSinceTurnStart": 2481
+      },
+      {
+        "event": "turn/end",
+        "millisecondsSinceTurnStart": 2482
+      }
+    ]
+  },
+  {
+    "task": "regex",
+    "mode": "standard",
+    "systemPromptCharacters": 6865,
+    "toolNames": [
+      "ask_user_question",
+      "bash",
+      "create_goal",
+      "edit",
+      "exit_plan_mode",
+      "get_goal",
+      "glob",
+      "grep",
+      "interrupt_agent",
+      "job_kill",
+      "job_list",
+      "job_output",
+      "list_agents",
+      "present",
+      "ralph",
+      "read",
+      "read_image",
+      "send_message",
+      "skill",
+      "subagent",
+      "subagent_fork",
+      "todo_write",
+      "update_goal",
+      "web_fetch",
+      "web_search",
+      "workflow",
+      "write"
+    ],
+    "timeline": [
+      {
+        "event": "turn/start",
+        "millisecondsSinceTurnStart": 0
+      },
+      {
+        "event": "step/start",
+        "millisecondsSinceTurnStart": 32
+      },
+      {
+        "event": "step/end",
+        "millisecondsSinceTurnStart": 2371
+      },
+      {
+        "event": "turn/end",
+        "millisecondsSinceTurnStart": 2372
+      }
+    ]
+  },
+  {
+    "task": "regex",
+    "mode": "minimal",
+    "systemPromptCharacters": 46,
+    "toolNames": [
+      "bash"
+    ],
+    "timeline": [
+      {
+        "event": "turn/start",
+        "millisecondsSinceTurnStart": 0
+      },
+      {
+        "event": "step/start",
+        "millisecondsSinceTurnStart": 24
+      },
+      {
+        "event": "tool/call",
+        "millisecondsSinceTurnStart": 2102
+      },
+      {
+        "event": "tool/result",
+        "millisecondsSinceTurnStart": 2815
+      },
+      {
+        "event": "step/end",
+        "millisecondsSinceTurnStart": 2815
+      },
+      {
+        "event": "step/start",
+        "millisecondsSinceTurnStart": 2825
+      },
+      {
+        "event": "step/end",
+        "millisecondsSinceTurnStart": 14069
+      },
+      {
+        "event": "turn/end",
+        "millisecondsSinceTurnStart": 14071
+      }
+    ]
+  }
+]

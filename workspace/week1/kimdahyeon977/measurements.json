@@ -1,0 +1,217 @@
+[
+  {
+    "task": "translation",
+    "prompt": "다음 문장을 자연스러운 한국어로 번역해줘. 번역문 한 문장만 출력해줘: \"Please submit the report by Friday.\"",
+    "mode": "standard",
+    "sessionId": "session-51190a12-d516-4bb1-84e8-28490f50db55",
+    "startedAt": 1791807379918,
+    "seconds": 2.782,
+    "reason": {
+      "kind": "completed"
+    },
+    "answer": "금요일까지 보고서를 제출해 주세요.",
+    "usage": {
+      "inputTokens": 3,
+      "outputTokens": 23,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 9406,
+      "totalTokens": 9432,
+      "inputIncludingCache": 9409
+    },
+    "tools": []
+  },
+  {
+    "task": "translation",
+    "prompt": "다음 문장을 자연스러운 한국어로 번역해줘. 번역문 한 문장만 출력해줘: \"Please submit the report by Friday.\"",
+    "mode": "minimal",
+    "sessionId": "session-3fa98000-6fe2-4318-b673-fa4c07dfdae6",
+    "startedAt": 1791807382996,
+    "seconds": 2.118,
+    "reason": {
+      "kind": "completed"
+    },
+    "answer": "금요일까지 보고서를 제출해 주세요.",
+    "usage": {
+      "inputTokens": 783,
+      "outputTokens": 23,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "totalTokens": 806,
+      "inputIncludingCache": 783
+    },
+    "tools": []
+  },
+  {
+    "task": "json",
+    "prompt": "다음 정보를 JSON 객체로 변환해줘. 키는 name, age, active 순서이고 설명이나 코드 블록 없이 JSON 한 줄만 출력해줘. 이름: 민지, 나이: 27, 활성 여부: 예",
+    "mode": "standard",
+    "sessionId": "session-4c91364f-c963-4621-b5be-fa02930d6563",
+    "startedAt": 1791807385552,
+    "seconds": 2.611,
+    "reason": {
+      "kind": "completed"
+    },
+    "answer": "```json\n{\"name\":\"민지\",\"age\":27,\"active\":true}\n```",
+    "usage": {
+      "inputTokens": 3,
+      "outputTokens": 22,
+      "cacheReadTokens": 8697,
+      "cacheWriteTokens": 746,
+      "totalTokens": 9468,
+      "inputIncludingCache": 9446
+    },
+    "tools": []
+  },
+  {
+    "task": "json",
+    "prompt": "다음 정보를 JSON 객체로 변환해줘. 키는 name, age, active 순서이고 설명이나 코드 블록 없이 JSON 한 줄만 출력해줘. 이름: 민지, 나이: 27, 활성 여부: 예",
+    "mode": "minimal",
+    "sessionId": "session-3e8ae8e0-7769-46dd-b0d7-7e912cc7b40e",
+    "startedAt": 1791807388620,
+    "seconds": 1.959,
+    "reason": {
+      "kind": "completed"
+    },
+    "answer": "{\"name\": \"민지\", \"age\": 27, \"active\": true}",
+    "usage": {
+      "inputTokens": 820,
+      "outputTokens": 21,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "totalTokens": 841,
+      "inputIncludingCache": 820
+    },
+    "tools": []
+  },
+  {
+    "task": "summary",
+    "prompt": "다음 내용을 40자 이내의 한국어 한 문장으로 요약해줘. 요약문만 출력해줘. \"회의에서는 로그인 화면의 접근성 문제를 검토했다. 대비가 낮은 버튼 색상을 변경하고, 키보드만으로 모든 입력 항목을 이동할 수 있도록 수정하기로 했다. 수정은 금요일까지 완료한다.\"",
+    "mode": "standard",
+    "sessionId": "session-2ae0f346-44d8-47ca-883a-47ebb4a3920f",
+    "startedAt": 1791807390670,
+    "seconds": 2.986,
+    "reason": {
+      "kind": "completed"
+    },
+    "answer": "로그인 화면 접근성 개선, 금요일까지 완료 예정.",
+    "usage": {
+      "inputTokens": 3,
+      "outputTokens": 31,
+      "cacheReadTokens": 8697,
+      "cacheWriteTokens": 806,
+      "totalTokens": 9537,
+      "inputIncludingCache": 9506
+    },
+    "tools": []
+  },
+  {
+    "task": "summary",
+    "prompt": "다음 내용을 40자 이내의 한국어 한 문장으로 요약해줘. 요약문만 출력해줘. \"회의에서는 로그인 화면의 접근성 문제를 검토했다. 대비가 낮은 버튼 색상을 변경하고, 키보드만으로 모든 입력 항목을 이동할 수 있도록 수정하기로 했다. 수정은 금요일까지 완료한다.\"",
+    "mode": "minimal",
+    "sessionId": "session-28160e2f-f29f-4cd4-b61e-009b80b602bc",
+    "startedAt": 1791807393723,
+    "seconds": 2.596,
+    "reason": {
+      "kind": "completed"
+    },
+    "answer": "로그인 화면 접근성 개선을 금요일까지 완료하기로 결정했다.",
+    "usage": {
+      "inputTokens": 880,
+      "outputTokens": 36,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "totalTokens": 916,
+      "inputIncludingCache": 880
+    },
+    "tools": []
+  },
+  {
+    "task": "python",
+    "prompt": "Python 함수 unique_preserving_order(items)를 작성해줘. 입력은 정수 리스트이고 중복을 제거하되 처음 등장한 순서를 유지해. 함수 코드만 출력해줘.",
+    "mode": "standard",
+    "sessionId": "session-1c702102-4b21-40ae-847c-8d86f3392763",
+    "startedAt": 1791807396789,
+    "seconds": 3.029,
+    "reason": {
+      "kind": "completed"
+    },
+    "answer": "여기 요청하신 Python 함수입니다:\n\n```python\ndef unique_preserving_order(items):\n    seen = set()\n    result = []\n    for item in items:\n        if item not in seen:\n            seen.add(item)\n            result.append(item)\n    return result\n```",
+    "usage": {
+      "inputTokens": 3,
+      "outputTokens": 82,
+      "cacheReadTokens": 8697,
+      "cacheWriteTokens": 733,
+      "totalTokens": 9515,
+      "inputIncludingCache": 9433
+    },
+    "tools": []
+  },
+  {
+    "task": "python",
+    "prompt": "Python 함수 unique_preserving_order(items)를 작성해줘. 입력은 정수 리스트이고 중복을 제거하되 처음 등장한 순서를 유지해. 함수 코드만 출력해줘.",
+    "mode": "minimal",
+    "sessionId": "session-6814f4da-7a05-4f74-b38c-44c68c2d4c94",
+    "startedAt": 1791807400367,
+    "seconds": 2.482,
+    "reason": {
+      "kind": "completed"
+    },
+    "answer": "```python\ndef unique_preserving_order(items):\n    seen = set()\n    result = []\n    for item in items:\n        if item not in seen:\n            seen.add(item)\n            result.append(item)\n    return result\n```",
+    "usage": {
+      "inputTokens": 807,
+      "outputTokens": 64,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "totalTokens": 871,
+      "inputIncludingCache": 807
+    },
+    "tools": []
+  },
+  {
+    "task": "regex",
+    "prompt": "영문 대문자 2개, 하이픈, 숫자 4개로만 구성된 문자열 전체에 매칭되는 정규식을 작성해줘. 예: AB-1234. 정규식 한 줄만 출력해줘.",
+    "mode": "standard",
+    "sessionId": "session-1a1b21a5-ff05-4d25-b873-193f76b85d5b",
+    "startedAt": 1791807402914,
+    "seconds": 2.372,
+    "reason": {
+      "kind": "completed"
+    },
+    "answer": "```regex\n^[A-Z]{2}-\\d{4}$\n```",
+    "usage": {
+      "inputTokens": 3,
+      "outputTokens": 22,
+      "cacheReadTokens": 8697,
+      "cacheWriteTokens": 740,
+      "totalTokens": 9462,
+      "inputIncludingCache": 9440
+    },
+    "tools": []
+  },
+  {
+    "task": "regex",
+    "prompt": "영문 대문자 2개, 하이픈, 숫자 4개로만 구성된 문자열 전체에 매칭되는 정규식을 작성해줘. 예: AB-1234. 정규식 한 줄만 출력해줘.",
+    "mode": "minimal",
+    "sessionId": "session-4b8256b3-b0ed-43ad-a8ba-4ee0ef174d35",
+    "startedAt": 1791807405471,
+    "seconds": 14.071,
+    "reason": {
+      "kind": "completed"
+    },
+    "answer": "^[A-Z]{2}-[0-9]{4}$",
+    "usage": {
+      "inputTokens": 1736,
+      "outputTokens": 88,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0,
+      "totalTokens": 1824,
+      "inputIncludingCache": 1736
+    },
+    "tools": [
+      {
+        "name": "bash",
+        "arguments": "{\"command\":\"echo \\\"^[A-Z]{2}-[0-9]{4}$\\\"\"}"
+      }
+    ]
+  }
+]
